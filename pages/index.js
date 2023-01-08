@@ -21,6 +21,9 @@ export default function Home() {
                         pages/index.js
                     </code>
                 </p>
+                <div >
+                <img src="https://res.cloudinary.com/dbszbhg8n/image/upload/v1673205322/onebyte_rkfpik.jpg" alt="logo" className="w-40 h-40" />
+                </div>
                 <p className="m-4 text-center text-2xl">
                     This is the starter project for One Byte Social's official
                     website.
