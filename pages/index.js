@@ -4,6 +4,14 @@ import Image from "next/image";
 export default function Home() {
     return (
         <Layout title="Next.js Template">
+            <header >
+            <div className=" flex flex-row" >
+                <img src="https://res.cloudinary.com/dbszbhg8n/image/upload/v1673205322/onebyte_rkfpik.jpg" alt="logo" className="w-20 flex flex-box m-3 rounded" />
+
+                <p className="text-3xl text-center justify-center p-8 font-serif">One Byte Social</p>
+
+                </div>
+            </header>
             <main className="flex min-h-[92vh] w-full flex-col items-center justify-center bg-gray-100">
                 <h1 className="text-[3rem]">
                     Welcome to{" "}
@@ -21,9 +29,7 @@ export default function Home() {
                         pages/index.js
                     </code>
                 </p>
-                <div >
-                <img src="https://res.cloudinary.com/dbszbhg8n/image/upload/v1673205322/onebyte_rkfpik.jpg" alt="logo" className="w-40 h-40" />
-                </div>
+               
                 <p className="m-4 text-center text-2xl">
                     This is the starter project for One Byte Social's official
                     website.
