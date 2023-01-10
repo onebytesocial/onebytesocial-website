@@ -1,4 +1,5 @@
 import Head from "next/head";
+import NavBar from "./NavBar";
 
 export default function Layout({ title, children }) {
     return (
@@ -13,8 +14,9 @@ export default function Layout({ title, children }) {
                     name="keywords"
                     content="One Byte Social, One Byte, Sreekesh, Community, Tech Community, Tech"
                 />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/1_BYTE_1.ico" />
             </Head>
+			<NavBar />
             <main>{children}</main>
         </>
     );
