@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
     return (
-        <Layout title="Next.js Template">
+        <Layout title="One Byte Social">
             <main className="flex min-h-[92vh] w-full flex-col items-center justify-center bg-gray-100">
                 <h1 className="text-[3rem]">
                     Welcome to{" "}
