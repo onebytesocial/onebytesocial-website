@@ -18,7 +18,7 @@ export default function Hero() {
                     </h1>
 
                     <a
-                        className="self-center sm:self-start shadow-sm px-4 py-3 bg-gradient-to-r from-indigo-600 to-indigo-500 rounded-md my-8 w-3/4 font-semibold flex items-center justify-start"
+                        className="self-center sm:self-start shadow-sm px-4 py-3 bg-gradient-to-r from-indigo-600 to-indigo-500 rounded-md my-8 max-w-lg font-semibold flex items-center justify-start"
                         href={discordURL}
                         target="_blank"
                         rel="noopener noreferrer"
